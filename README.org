@@ -1,0 +1,20 @@
+#+Title:Ubuntu|Chef Images
+#+AUTHOR:Tim Dysinger
+#+DATE:2011-03-26
+
+* About
+  Image creation for Vagrant
+
+* Requirements
+  - [[http://www.virtualbox.org/wiki/Downloads][VirtualBox]] 4
+  - [[http://rvm.beginrescueend.com/][RVM]]
+
+* Setup
+#+BEGIN_SRC:sh
+rake setup
+#+END_SRC
+
+* Build Vagrant Baseboxes
+#+BEGIN_SRC:sh
+rake vagrant
+#+END_SRC
