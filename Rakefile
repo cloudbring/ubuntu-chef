@@ -6,8 +6,8 @@ task :setup do
   `rvm use 1.8.7`
   `rvm gemset use global`
   `gem install bundler`
-  `rvm gemset create ubuntu-chef`
-  `rvm gemset use ubuntu-chef`
+  `rvm gemset create devops`
+  `rvm gemset use devops`
   `bundle install`
   `cd iso && wget -c -i .iso`
 end
