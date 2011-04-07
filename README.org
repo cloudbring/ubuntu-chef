@@ -14,7 +14,7 @@
 rake setup
 #+END_SRC
 
-* Build Vagrant Baseboxes
+* Build All Vagrant Baseboxes
 #+BEGIN_SRC:sh
-rake vagrant
+rake vagrants
 #+END_SRC

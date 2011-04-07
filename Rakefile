@@ -36,4 +36,4 @@ task :maverick64 do
 end
 
 desc "Ubuntu Vagrant Baseboxes (all)"
-task :all => [ :lucid32, :lucid64, :maverick32, :maverick64 ]
+task :vagrants => [ :lucid32, :lucid64, :maverick32, :maverick64 ]
