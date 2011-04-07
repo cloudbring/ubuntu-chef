@@ -9,6 +9,7 @@ task :setup do
   `rvm gemset create ubuntu-chef`
   `rvm gemset use ubuntu-chef`
   `bundle install`
+  `cd iso && wget -c -i .iso`
 end
 
 desc "Ubuntu 10.04.2 32 Vagrant Basebox"

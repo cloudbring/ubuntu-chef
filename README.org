@@ -8,6 +8,11 @@
 * Requirements
   - [[http://www.virtualbox.org/wiki/Downloads][VirtualBox]] 4
   - [[http://rvm.beginrescueend.com/][RVM]]
+  - Ubuntu ISOs in /iso (or else they'll be fetched for you)
+    - [[http://releases.ubuntu.com/10.04.2/ubuntu-10.04.2-server-i386.iso][Ubuntu 10.04.2 32 ISO]]
+    - [[http://releases.ubuntu.com/10.04.2/ubuntu-10.04.2-server-amd64.iso][Ubuntu 10.04.2 64 ISO]]
+    - [[http://releases.ubuntu.com/10.10/ubuntu-10.10-server-i386.iso][Ubuntu 10.10 32 ISO]]
+    - [[http://releases.ubuntu.com/10.10/ubuntu-10.10-server-amd64.iso][Ubuntu 10.10 64 ISO]]
 
 * Setup
 #+BEGIN_SRC:sh
