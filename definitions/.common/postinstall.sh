@@ -26,8 +26,7 @@ umount /mnt
 rm VBoxGuestAdditions_$VBOX_VERSION.iso
 
 # Chef
-source /etc/lsb-release
-echo "deb http://apt.opscode.com/ ${DISTRIB_CODENAME} main" \
+echo "deb http://apt.opscode.com/ `lsb_release -cs` main" \
     > /etc/apt/sources.list.d/opscode.list
 wget -q -O- http://apt.opscode.com/packages@opscode.com.gpg.key \
     | apt-key add -
